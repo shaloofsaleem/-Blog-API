@@ -5,11 +5,11 @@
 
 ## About The Project
 
-#-Blog-API-
+# -Blog-API-
 
 <br>
 <p align='center'>
- <img src="[https://github.com/Jauharmuhammed/README-Template/blob/main/assets/Mockup-website.png](https://miro.medium.com/v2/resize:fit:640/format:webp/1*go4vEjAqgznYnJoksYJ_0A.png)" width='70%' > 
+ <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*go4vEjAqgznYnJoksYJ_0A.png" width='70%' > 
 </p>
 <br>
 
