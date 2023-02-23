@@ -5,7 +5,7 @@
 
 ## About The Project
 
-#-Blog-API----
+#-Blog-API-
 
 <br>
 <p align='center'>
@@ -16,9 +16,22 @@
 A blog API in Django is an API that allows developers to interact with a blog's data, such as posts, comments, and categories, using Django as the backend. To create a blog API in Django, you can use the Django Rest Framework, which is a powerful tool for building APIs in Django. This framework allows you to create views, serializers, and routers that handle the data and interactions with the API. The views handle the logic of the API and how it responds to requests, the serializers handle the data and how it is formatted when sent and received, and the routers handle the URL patterns and routing for the API. Once the API is developed, it can be integrated into a web or mobile application to allow users to interact with the blog data
 
 - Install DRF by adding it to your project's requirements.txt file or by running pip install djangorestframework..
-- To add JSON Web Token (JWT) authentication to a Django REST Framework (DRF) API, you can use the djangorestframework_simplejwt package. Here is a general guide to adding JWT authentication to your API:
--Install the djangorestframework_simplejwt package by adding it to your project's requirements.txt file or by running pip install djangorestframework_simplejwt.
+- To add JSON Web Token (JWT) authentication to a Django REST Framework (DRF) API, you can use the djangorestframework_simplejwt package. Here is a    general guide to adding JWT authentication to your API:
+-Install the djangorestframework_simplejwt package by adding it to your project's requirements.txt file or by running pip install            djangorestframework_simplejwt.
 -  Add 'rest_framework_simplejwt' to your INSTALLED_APPS in your settings.py file.
+
+## Main Topics
+- Creating serializers
+-  Setting URLs
+-  Setting up JWt authentication in Django rest framework
+-  Creating models for the Blog app
+-  Serializer for a Blog application
+-  Post method  for a Blog application
+-  Get method for Blog Application
+-  Patch method for a blog application
+-  Delete method for Blog Application
+-  Adding pagination to Blogs
+
 
 <br>
 
@@ -64,7 +77,38 @@ Then install the project dependencies with
 ```
 pip install -r requirements.txt
 ```
+## Create a Project
+```
+python manage.py startproject blog
+```
 
+### Create apps
+```
+python manage.py startapp account
+python manage.py startapp home
+```
+ ### Create Folder
+- API (Create url.py) -> easy acess url
+
+### Create apps
+```
+python manage.py startapp account
+python manage.py startapp home
+```
+
+###  Create file serializer.py 
+- In Create apps
+```
+from rest_framework import serializers
+```
+ ### account  app create
+ - Register
+ - Login
+###  Create JWT  
+- Documtation Link
+```
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
+```
 Apply migrations and create your database
 ```
 python manage.py migrate
