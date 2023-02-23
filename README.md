@@ -9,7 +9,7 @@
 
 <br>
 <p align='center'>
-<!-- <img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/Mockup-website.png" width='70%' > -->
+ <img src="[https://github.com/Jauharmuhammed/README-Template/blob/main/assets/Mockup-website.png](https://miro.medium.com/v2/resize:fit:640/format:webp/1*go4vEjAqgznYnJoksYJ_0A.png)" width='70%' > 
 </p>
 <br>
 
@@ -125,3 +125,8 @@ python manage.py runserver
 ```
 
 <br>
+
+
+Django rest framework is one of the most popular web framework for building rest APIs in Django.
+We will be seeing how we can create CRUD APIs in the Django rest framework. Also, we will be seeing how we can implement JWT authentication, pagination and search functionality in this application. You will be learning some of the core concepts of the Django rest framework like serializer, APIView, response, and status code in the Django rest framework.
+
